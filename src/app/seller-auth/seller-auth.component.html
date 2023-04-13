@@ -1,11 +1,65 @@
 <div class="seller-auth">
-<div class="signup">
-<h1>Seller sign-up</h1>
-<form #sellerSignup="ngForm"(ngSubmit)="signUp(sellerSignup.value)" class="common-form" action="">
-    <input ngModel name="name" class="form-input" type="text" placeholder="Enter Name"/>
-    <input ngModel name="password" class="form-input" type="password" placeholder="Enter password"/>
-    <input ngModel name="email" class="form-input" type="text" placeholder="Enter Email"/>
-    <button class="form-button">SignUp</button>
-</form>
-</div>
+  <div class="signup" *ngIf="!showLogin">
+    <h1>Seller sign-up</h1>
+    <!-- sign Up area -->
+    <form
+      #sellerSignup="ngForm"
+      (ngSubmit)="signUp(sellerSignup.value)"
+      class="common-form"
+      action=""
+    >
+      <input
+        ngModel
+        name="name"
+        class="form-input"
+        type="text"
+        placeholder="Enter Name"
+      />
+      <input
+        ngModel
+        name="password"
+        class="form-input"
+        type="password"
+        placeholder="Enter password"
+      />
+      <input
+        ngModel
+        name="email"
+        class="form-input"
+        type="text"
+        placeholder="Enter Email"
+      />
+      <button class="form-button">SignUp</button>
+      <a class="auth-toggle-link" (click)="openLogin()">Already have Account? click to Login </a>
+    </form>
+  </div>
+
+  <!-- LOGIN AREA -->
+  <div class="Login" *ngIf="showLogin">
+    <h1>Seller Log-in</h1>
+    <!-- sign Up area -->
+    <form
+      #sellerLogin="ngForm"
+      (ngSubmit)="Login(sellerLogin.value)"
+      class="common-form"
+      action=""
+    >      <input
+    ngModel
+    name="email"
+    class="form-input"
+    type="text"
+    placeholder="Enter Email"
+  />
+      <input
+        ngModel
+        name="password"
+        class="form-input"
+        type="password"
+        placeholder="Enter password"
+      />
+ 
+      <button class="form-button">LOGIN</button>
+      <a class="auth-toggle-link" (click)="openSignUp()">Don't have Account? click to Create new Account</a>
+    </form>
+  </div>
 </div>

@@ -29,6 +29,12 @@
       "password": "anil@123",
       "email": "anil@gmail.com",
       "id": 5
+    },
+    {
+      "name": "bread",
+      "password": "Bread@123",
+      "email": "b",
+      "id": 6
     }
   ]
 }
