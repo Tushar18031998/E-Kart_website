@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 .nav h1{
-    color: blueviolet;
+    color: rgb(36, 230, 123);
     margin: 0;
     font-size: 40px;
 }
@@ -19,7 +19,7 @@
 }
 .nav li a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(36, 230, 123);
  }
  .nav .nav-search{
     margin-top: 5px;
@@ -30,16 +30,19 @@
 }
 .nav .nav-search input{
 flex: 1;
- color: blueviolet;
- border: 1px solid blueviolet;
- height: 35px;
+ color: rgb(36, 230, 123);
+ border: 1px solid rgb(36, 230, 123);
+ height: 39px;
  border-right: 0px;
 }
 
 .nav .nav-search button{
-    color: blueviolet;
-    border: 1px solid blueviolet;
+    color:rgb(36, 230, 123);
+    border: 1px solid rgb(36, 230, 123);
     height: 39px;
     border-left: 0px;
 }
-
+h1 a{
+    color:rgb(36, 230, 123) ;
+    text-decoration: none;
+}

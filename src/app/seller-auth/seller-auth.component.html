@@ -37,6 +37,8 @@
   <!-- LOGIN AREA -->
   <div class="Login" *ngIf="showLogin">
     <h1>Seller Log-in</h1>
+    <p class="error">{{authError}}</p>
+    
     <!-- sign Up area -->
     <form
       #sellerLogin="ngForm"

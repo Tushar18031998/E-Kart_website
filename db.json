@@ -2,7 +2,7 @@
   "seller": [
     {
       "name": "Tushar bharambe",
-      "eamil": "tusharbharambe@gmail.com",
+      "email": "tusharbharambe@gmail.com",
       "password": "tush18#",
       "id": 1
     },
@@ -15,26 +15,34 @@
     {
       "name": "anil",
       "password": "anil@1234",
-      "email": "anil@gamil.com",
+      "email": "anil@gmail.com",
       "id": 3
     },
     {
-      "name": "ashok",
-      "password": "ashok@123",
-      "email": "ashok@123",
+      "name": "tony",
+      "password": "tony@123",
+      "email": "tony@gmail.com",
       "id": 4
+    }
+  ],
+  "Products": [
+    {
+      "name": "samsung m40",
+      "Price": "14500",
+      "Color": "black",
+      "category": "mobiles",
+      "description": "samsung mobile",
+      "Image": "https://i.gadgets360cdn.com/products/large/Samsung-Galaxy-M14-5G-Dark-Blue-db-616x800-1678257713.jpg?downsize=*:420&output-quality=80",
+      "id": 1
     },
     {
-      "name": "anil",
-      "password": "anil@123",
-      "email": "anil@gmail.com",
-      "id": 5
-    },
-    {
-      "name": "bread",
-      "password": "Bread@123",
-      "email": "b",
-      "id": 6
+      "name": "i phone 14",
+      "Price": "100000",
+      "Color": "white",
+      "category": "mobile",
+      "description": "an apple product",
+      "Image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-finish-select-202209-6-7inch-blue?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1661027942322",
+      "id": 2
     }
   ]
 }
