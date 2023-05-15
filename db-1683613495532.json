@@ -1,0 +1,28 @@
+{
+  "seller": [
+    {
+      "name": "Tushar bharambe",
+      "email": "tusharbharambe@gmail.com",
+      "password": "tush18#",
+      "id": 1
+    },
+    {
+      "name": "sachin",
+      "password": "sachin@123",
+      "email": "sachin12@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "anil",
+      "password": "anil@1234",
+      "email": "anil@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "password": "tony@123",
+      "email": "tony@gmail.com",
+      "id": 4
+    }
+  ]
+}
