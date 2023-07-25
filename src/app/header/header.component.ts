@@ -25,7 +25,7 @@ export class HeaderComponent implements OnInit {
             this.sellerName = sellerData.name;
           }
         } else {
-          console.log('outside seller');
+          // console.log('outside seller');
           this.menuType = 'default';
         }
       }
@@ -50,7 +50,7 @@ export class HeaderComponent implements OnInit {
     this.searchResult = undefined;
   }
   submitSearch(val: string) {
-    console.log(val);
+    // console.log(val);
     this.route.navigate([`search/${val}`])
   }
 }
